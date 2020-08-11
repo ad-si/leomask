@@ -8,9 +8,9 @@ function checkform(form)
   }
   
   if(EMail(form.email.value)){
-	return true ;
+  return true ;
   }else{
-	return false ;
+  return false ;
   }
 }
 

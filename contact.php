@@ -1,5 +1,5 @@
 <?php
-include('inc/common.inc.php');//fuer alle Dateien gleiche Informationen einbinden
+include('inc/common.inc.php');
 
 $title = 'Contact';
 
@@ -13,8 +13,6 @@ Please check out my youtube channel and feel free to subscribe!<br />
 You can also find me on twitter, facebook and myspace!
 </p>
 </div>';
-
-	
 
 
 $template = new template($template_file);//Template parsen

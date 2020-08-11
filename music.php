@@ -1,12 +1,10 @@
 <?php
-include('inc/common.inc.php');//fuer alle Dateien gleiche Informationen einbinden
+include('inc/common.inc.php');
 
 $title = 'Contact';
 
 $content .= '
 <h2>COMING SOON!</h2>';
-
-	
 
 
 $template = new template($template_file);//Template parsen
