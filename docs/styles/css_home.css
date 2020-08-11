@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html{
+}
+
+body {
+  font: 200 16px/14px "Arial", sans-serif;
+  color: black;
+}
+
+div#wrapper {
+	position: relative;
+	width: 900px;
+	margin: 0 auto 0 auto;
+}
+
+div#wrapcontent {
+	padding: 30px 0 0 0;
+}
+
+h1{
+	display: inline-block;
+}
+
+h1 a {
+	text-decoration: none;
+	display: inline-block;
+	font: 900 50px/50px "Helvetica", sans-serif;
+	color: rgba(0,0,0,0.7);
+	margin: 0 20px 0 0;
+}
+
+h1 a:hover {
+	color: rgba(0,0,0,0.6);
+}
+
+h2 {
+	display: inline-block;
+	font: 900 40px/40px "Arial", sans-serif;
+	color: rgba(0,0,0,0.6);
+	margin: 0 0 20px 0;
+}
+
+h3 {
+	font: 900 20px/20px "Arial", sans-serif;
+	text-shadow: 1px 1px 2px rgb(0,0,0);
+	color: white;
+}
+
+h4 {
+	font: 900 24px/24px "Arial", sans-serif;
+	color: rgba(0,0,0,0.6);
+	margin: 0 0 10px 0;
+	text-shadow: 0 1px 1px rgb(255,255,255), 0 -1px 1px rgb(0,0,0);
+}
+
+hr.long{
+	background: rgb(100,100,100);
+	height: 1px;
+	margin: 0 0 10px 0;
+	box-shadow: 0 1px 1px rgb(0,0,0);
+}
+
+hr.short{
+	width: 900px;
+	background: rgba(100,100,100,0.4);
+	height: 2px;
+	margin: 40px 0 15px 0;
+}
+
+hr.light{
+	background: rgb(100,100,100);
+	height: 1px;
+	margin: 0 0 20px 0;
+	box-shadow: 0 1px 1px rgb(255,255,255), 0 -1px 1px rgb(0,0,0);
+}
+
+/*------------------------------------------------------NAVIGATION----------------*/
+div#preload {
+	display: none;
+}
+
+div#nav{
+	margin: 0;
+	padding: 2rem 0;
+}
+
+div#nav div#menu_wrap{
+	width: 890px;
+	background: rgba(0,0,0,0.4);
+	padding: 5px;
+	margin: 10px 0 0 0;
+	border-radius: 5px;
+}
+
+div#nav a.menu {
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+	font: 100 20px/20px "Helvetica", sans-serif;
+	padding: 0 5px 0 5px;
+	margin: 0 10px 0 0;
+}
+
+div#nav a.menu:hover {
+	color: rgba(0,0,0,0.6);
+}
+
+
+div#nav a.social{
+	position: relative;
+	bottom: 15px;
+	left: 35px;
+	display: inline-block;
+	width: 80px;
+	height: 40px;
+	margin: 0 0 0 0;
+	background-size: 60px;
+}
+
+
+/*-------------------------------------------------HOME-----------------------*/
+
+div#home {
+	width: 900px;
+}
+
+#home a.social {
+  color: rgba(0,0,0,0.7);
+  text-decoration: none;
+  font-size: 5rem;
+  margin-right: 1rem;
+}
+
+div#home iframe{
+	width: 426px;
+	height: 275px;
+	box-shadow: 2px 2px 15px 0 black;
+	-webkit-box-shadow: 2px 2px 15px 0 black;
+	display: inline-block;
+	margin: 0 0 40px 0;
+}
+
+div#home iframe:nth-of-type(2n-1){
+	margin: 0 40px 40px 0;
+}
+
+div#right_column{
+	text-align: center;
+	margin:  40px 0 0 0;
+}
+
+div#subscribe{
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 15px 15px 15px;
+	background: rgba(0, 0, 0,0.4);
+}
+
+div#subscribe span{
+	display: inline-block;
+	font: 500 20px/20px "Arial", sans-serif;
+	color: black;
+	margin: 0 0 10px 0;
+}
+div#subscribe span.pos{
+	color: rgb(140,255,100);
+}
+div#subscribe span.neg{
+	color: rgb(255,80,80);
+}
+
+div#subscribe form{
+	display: inline;
+	margin: 0 0 0 0;
+}
+
+div#subscribe input[type="text"]{
+
+	font: 500 18px/25px "Helvetica", sans-serif;
+	width: 300px;
+	height: 25px;
+	background: rgba(255,255,255,0.8);
+	color: rgb(0,0,0);
+	border-radius: 5px 0 0 5px;
+	padding: 5px;
+}
+
+div#subscribe input[type="submit"]{
+	font: 700 20px/20px "Helvetica", sans-serif;
+	height: 34px;
+	border-radius: 0 5px 5px 0;
+	background: rgba(255,255,255,0.8);
+	color: rgb(0,0,0);
+	padding: 5px;
+}
+
+
+div#description{
+	width: 430px;
+	height: 255px;
+	font: 500 16px/25px "Arial", sans-serif;
+	vertical-align: top;
+	color: white;
+	border-radius: 10px;
+	padding: 18px;
+	margin: 0 0 20px 0;
+}
+
+div#description hr{
+	background: white;
+	height: 1px;
+	border: 2px;
+	margin: 0 0 10px 0;
+	box-shadow: 1px 1px 2px rgb(0,0,0);
+}
+
+div#description em{
+	font: 900 18px/25px "Arial", sans-serif;
+	color: rgb(122, 177, 82);
+	text-shadow: 1px 1px 0 rgb(50,50,50);
+}
+
+div#description em a{
+	font: 900 18px/25px "Arial", sans-serif;
+	color: rgb(122, 177, 82);
+	text-shadow: 1px 1px 0 rgb(50,50,50);
+}
+
+
+
+/*---------------------------------------------------------Line------------------------*/
+
+div#line {
+	margin: 30px;
+}
+
+
+
+/*------------footer----------------*/
+
+div#footer {
+	font: 900 12px/12px "Arial", sans-serif;
+	color: rgba(0,0,0,0.5);
+	text-align: left;
+	padding: 20px 0 20px 0;
+}
+
+
+span#copyright {
+	float: left;
+	margin: 0 15px 0 0;
+}
+
+
+
+/*----------about---------------*/
+div#about{
+	width: 800px;
+	text-align: justify;
+	font: 500 16px/20px "Arial", sans-serif;
+}
+
+div#about p{
+  	font: 900 20px/35px "Arial", sans-serif;
+	color: rgba(0,0,0,0.5);
+}
+
+/*----------contact---------------*/
+div#contact{
+  line-height: 22px;
+}
+
+div#contact p{
+  	font: 900 26px/35px "Arial", sans-serif;
+	color: rgba(0,0,0,0.5);
+}
+
+div#contact div.fn {
+  font-size: 20px;
+  line-height: 40px;
+}
+
