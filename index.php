@@ -45,26 +45,36 @@ $content =
 
 $content .=
 ''.
-// '
-//   <a
-//     id="spotify"
-//     class="social"
-//     href="https://www.spotify.com/leomaskmusic"
-//     title="spotify"
-//   >
-//     <i class="fab fa-spotify"></i>
-//   </a>
-// '.
-// '
-//   <a
-//     id="apple"
-//     class="social"
-//     href="http://itunes.apple.com/de/artist/leo-mask/id421212373"
-//     title="Apple Music"
-//   >
-//     <i class="fab fa-apple"></i>
-//   </a>
-// '.
+'
+  <a
+    id="spotify"
+    class="social"
+    href="https://open.spotify.com/artist/0Zsk2aAXQR5sdsNXfKlUVO"
+    title="Spotify"
+  >
+    <i class="fab fa-spotify"></i>
+  </a>
+'.
+'
+  <a
+    id="apple-music"
+    class="social"
+    href="https://music.apple.com/de/artist/leo-mask/1527314230"
+    title="Appple Music"
+  >
+    <i class="fab fa-apple"></i>
+  </a>
+'.
+'
+  <a
+    id="amazon-music"
+    class="social"
+    href="https://music.amazon.de/artists/B08FT1ZSVN"
+    title="Amazon Music"
+  >
+    <i class="fab fa-amazon"></i>
+  </a>
+'.
 '
   <a
     id="deezer"
@@ -77,6 +87,16 @@ $content .=
 '.
 '
   <a
+    id="youtube-music"
+    class="social"
+    href="https://music.youtube.com/playlist?list=OLAK5uy_nEK8oAOXNA2y4AD_-82K73OO-lJwCSR-Q"
+    title="YouTube Music"
+  >
+    <i class="fab fa-youtube-square"></i>
+  </a>
+'.
+'
+  <a
     id="soundcloud"
     class="social"
     href="https://soundcloud.com/leomask"
@@ -85,16 +105,21 @@ $content .=
     <i class="fab fa-soundcloud"></i>
   </a>
 '.
-// '
-//   <a
-//     id="tidal"
-//     class="social"
-//     href="https://www.tidal.com/leomaskmusic"
-//     title="tidal"
-//   >
-//     <i class="fab fa-tidal"></i>
-//   </a>
-// '.
+'
+  <a
+    id="tidal"
+    class="social"
+    href="https://listen.tidal.com/artist/20868290"
+    title="tidal"
+  >
+    <i class="fas fa-tenge"></i>
+  </a>
+'.
+'<br>'.
+'<br>'.
+'<br>'.
+'<br>'.
+'<br>'.
 '
   <a
     id="instagram"
@@ -117,22 +142,22 @@ $content .=
 '.
 '
   <a
-    id="youtube"
-    class="social"
-    href="https://www.youtube.com/leomaskmusic"
-    title="YouTube"
-  >
-    <i class="fab fa-youtube"></i>
-  </a>
-'.
-'
-  <a
     id="twitter"
     class="social"
     href="https://www.twitter.com/leomaskmusic"
     title="Twitter"
   >
     <i class="fab fa-twitter"></i>
+  </a>
+'.
+'
+  <a
+    id="youtube"
+    class="social"
+    href="https://www.youtube.com/leomaskmusic"
+    title="YouTube"
+  >
+    <i class="fab fa-youtube"></i>
   </a>
 '.
 
