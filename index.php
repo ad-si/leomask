@@ -89,7 +89,7 @@ $content .=
   <a
     id="youtube-music"
     class="social"
-    href="https://music.youtube.com/playlist?list=OLAK5uy_nEK8oAOXNA2y4AD_-82K73OO-lJwCSR-Q"
+    href="https://music.youtube.com/channel/UC1X1vuP5DWAbci8iHXfcRHw"
     title="YouTube Music"
   >
     <i class="fab fa-youtube-square"></i>
