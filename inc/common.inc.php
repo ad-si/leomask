@@ -9,7 +9,7 @@ $content = '';
 $menu =
   '
   <h1>
-    <a href="index.php">Leo Mask</a>
+    <a href="/">Leo Mask</a>
   </h1>
   '.
 

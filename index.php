@@ -122,6 +122,16 @@ $content .=
 '<br>'.
 '
   <a
+    id="tiktok"
+    class="social"
+    href="https://www.tiktok.com/@leomaskmusic"
+    title="TikTok"
+  >
+    <i class="fab fa-tiktok"></i>
+  </a>
+'.
+'
+  <a
     id="instagram"
     class="social"
     href="https://www.instagram.com/leomaskmusic"
