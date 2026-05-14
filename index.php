@@ -170,6 +170,16 @@ $content .=
     <i class="fab fa-youtube"></i>
   </a>
 '.
+'
+  <a
+    id="musescore"
+    class="social"
+    href="https://musescore.com/leomask"
+    title="Musescore"
+  >
+    <i class="fab fa-musescore"></i>
+  </a>
+'.
 
 '</div>'.
 '';
